@@ -20,6 +20,7 @@ public class ThrowsEx01 {
         // throws의 대표적인 예시
         try {
             Class.forName("%^*^%*^&");
+
         } catch (ClassNotFoundException e) {
 
         }

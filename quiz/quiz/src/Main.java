@@ -2,21 +2,59 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-//        문제
-//        두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
-//
-//                입력
-//        첫째 줄에 테스트 케이스의 개수 T가 주어진다.
-//
-//                각 테스트 케이스는 한 줄로 이루어져 있으며, 각 줄에 A와 B가 주어진다. (0 < A, B < 10)
-
+        
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
-        for(int t = 1;  t <= T; t++) {
-            int A = sc.nextInt();
-            int B = sc.nextInt();
-        }
-
+        String S = sc.nextLine();
+        System.out.print(S.indexOf("a"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("b"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("c"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("d"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("e"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("f"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("g"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("h"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("i"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("j"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("k"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("l"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("m"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("n"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("o"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("p"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("q"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("r"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("s"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("t"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("u"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("v"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("w"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("x"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("y"));
+        System.out.print(" ");
+        System.out.print(S.indexOf("z"));
     }
 }
