@@ -8,6 +8,7 @@ public class RandomEx {
         int ran1 = ran.nextInt();
         System.out.println("정수 범위의 랜덤 수: " + ran1);
 
+
         int ran2 = ran.nextInt(10);
         System.out.println("0 ~ 10의 랜덤 수: " + ran2);
 

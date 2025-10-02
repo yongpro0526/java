@@ -28,7 +28,7 @@ public class PriorityQueueEx {
 
         // 객체를 우선수위 큐에 저장
         // 우선순위 큐에 값이 들어가면, 우선순위를 지정하기 위해서 내부적으로 compareTo 메서드를 호출시킵니다.
-        // compareable 인터페이스
+        // comparable 인터페이스
         Queue<User> que = new PriorityQueue<>();
 
         System.out.println("홍길동".compareTo("홍길자")); // 동 > 자
